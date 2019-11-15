@@ -1,0 +1,46 @@
+{
+  "name": "use-click-document",
+  "version": "0.0.1",
+  "description": "on document click react-hooks",
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "npm run build:lib && npm run build:esm",
+    "build:lib": "tsc --build tsconfig.json",
+    "build:esm": "tsc --build tsconfig.esm.json",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shatee/use-click-document.git"
+  },
+  "keywords": [
+    "react-hooks",
+    "use",
+    "click",
+    "outside"
+  ],
+  "author": "shatee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shatee/use-click-document/issues"
+  },
+  "homepage": "https://github.com/shatee/use-click-document#readme",
+  "files": [
+    "esm",
+    "lib",
+    "types"
+  ],
+  "peerDependencies": {
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2"
+  }
+}

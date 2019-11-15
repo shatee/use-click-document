@@ -1,6 +1,9 @@
 import { RefObject, useCallback, useEffect } from 'react';
 
-export const useClickDocument = (onClick: (event: MouseEvent) => void, ignoreRefs?: RefObject<HTMLElement>[]) => {
+export const useClickDocument = (
+  onClick: (event: MouseEvent) => void,
+  ignoreRefs?: RefObject<HTMLElement>[]
+) => {
   const onClickHandler = useCallback((event: MouseEvent) => {
     if (!event.target) return;
     if (ignoreRefs && ignoreRefs.length) {
