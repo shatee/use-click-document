@@ -1,6 +1,6 @@
 {
   "name": "use-click-document",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "on document click react-hooks",
   "main": "lib/index.js",
   "module": "esm/index.js",
