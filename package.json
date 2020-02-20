@@ -34,13 +34,13 @@
     "types"
   ],
   "peerDependencies": {
-    "react-dom": "^16.8.0"
+    "react-dom": "^16.12.0"
   },
   "devDependencies": {
-    "@types/react": "^16.9.11",
+    "@types/react": "^16.9.21",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "typescript": "^3.7.2",
-    "webpack": "^4.41.2"
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.6"
   }
 }
