@@ -6,7 +6,7 @@ export const useClickDocument = (
 ) => {
   const onClickHandler = useCallback((event: MouseEvent) => {
     if (!event.target) return;
-    if (ignoreRefs && ignoreRefs.length) {
+    if (ignoreRefs?.length) {
       for (let ref of ignoreRefs) {
         if (!ref.current) continue;
         if (ref.current.contains(event.target as HTMLElement)) return;
